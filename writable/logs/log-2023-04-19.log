@@ -1,0 +1,597 @@
+CRITICAL - 2023-04-19 00:16:12 --> Too few arguments to function App\Models\Register_model::checkUnique(), 3 passed in /var/www/htdocs/myproj/app/Controllers/Register.php on line 46 and exactly 4 expected
+in APPPATH/Models/Register_model.php on line 42.
+ 1 APPPATH/Controllers/Register.php(46): App\Models\Register_model->checkUnique()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 00:18:04 --> Undefined variable $role
+in APPPATH/Models/Register_model.php on line 45.
+ 1 APPPATH/Models/Register_model.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(46): App\Models\Register_model->checkUnique()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 00:18:44 --> Too few arguments to function App\Models\Register_model::checkUnique(), 3 passed in /var/www/htdocs/myproj/app/Controllers/Register.php on line 46 and exactly 4 expected
+in APPPATH/Models/Register_model.php on line 42.
+ 1 APPPATH/Controllers/Register.php(46): App\Models\Register_model->checkUnique()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 00:19:24 --> Undefined variable $builder
+in APPPATH/Models/Register_model.php on line 54.
+ 1 APPPATH/Models/Register_model.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(46): App\Models\Register_model->checkUnique()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-19 00:25:27 --> mysqli_sql_exception: Duplicate entry 's4797016' for key 'user_learner.ul_name' in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/Register_model.php(18): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/myproj/app/Controllers/Register.php(76): App\Models\Register_model->register()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\Register->register()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-19 00:25:27 --> Duplicate entry 's4797016' for key 'user_learner.ul_name'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Register_model.php(18): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(76): App\Models\Register_model->register()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-19 00:26:35 --> mysqli_sql_exception: Duplicate entry 's4797016' for key 'user_learner.ul_name' in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/Register_model.php(18): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/myproj/app/Controllers/Register.php(76): App\Models\Register_model->register()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\Register->register()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-19 00:26:35 --> Duplicate entry 's4797016' for key 'user_learner.ul_name'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Register_model.php(18): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(76): App\Models\Register_model->register()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 00:32:03 --> Undefined variable $if_unique
+in APPPATH/Controllers/Register.php on line 51.
+ 1 APPPATH/Controllers/Register.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 00:32:43 --> Undefined variable $if_unique
+in APPPATH/Controllers/Register.php on line 51.
+ 1 APPPATH/Controllers/Register.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 00:47:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH/Models/Register_model.php on line 79.
+ 1 APPPATH/Controllers/Register.php(46): App\Models\Register_model->checkUnique()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 05:46:31 --> Invalid file: "course_collestion.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/LearnerWorkplace.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 05:47:02 --> Invalid file: "course_collestion.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/LearnerWorkplace.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 05:48:00 --> Invalid file: "course_collestion.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/LearnerWorkplace.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 05:48:08 --> Invalid file: "course_collestion.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/LearnerWorkplace.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 06:36:46 --> Undefined variable $data
+in APPPATH/Views/course_collection.php on line 13.
+ 1 APPPATH/Views/course_collection.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_collection.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/LearnerWorkplace.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-19 06:41:53 --> mysqli_sql_exception: Unknown column 'ul_name.ulid' in 'on clause' in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/Collection_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/LearnerWorkplace.php(11): App\Models\Collection_model->getCollection()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-19 06:41:53 --> Unknown column 'ul_name.ulid' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Collection_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/LearnerWorkplace.php(11): App\Models\Collection_model->getCollection()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 06:43:22 --> Undefined variable $data
+in APPPATH/Views/course_collection.php on line 13.
+ 1 APPPATH/Views/course_collection.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_collection.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/LearnerWorkplace.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 06:44:40 --> Undefined variable $data
+in APPPATH/Views/course_collection.php on line 13.
+ 1 APPPATH/Views/course_collection.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_collection.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/LearnerWorkplace.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 06:46:42 --> Undefined variable $data
+in APPPATH/Views/course_collection.php on line 13.
+ 1 APPPATH/Views/course_collection.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_collection.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/LearnerWorkplace.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 06:49:08 --> Undefined variable $data
+in APPPATH/Views/course_collection.php on line 13.
+ 1 APPPATH/Views/course_collection.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_collection.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/LearnerWorkplace.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 06:49:24 --> Undefined variable $data
+in APPPATH/Views/course_collection.php on line 13.
+ 1 APPPATH/Views/course_collection.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_collection.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/LearnerWorkplace.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 06:52:26 --> Undefined variable $data
+in APPPATH/Controllers/LearnerWorkplace.php on line 23.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 06:53:05 --> Undefined variable $data
+in APPPATH/Controllers/LearnerWorkplace.php on line 23.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 06:59:03 --> Array to string conversion
+in APPPATH/Controllers/LearnerWorkplace.php on line 12.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 06:59:04 --> Array to string conversion
+in APPPATH/Controllers/LearnerWorkplace.php on line 12.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 06:59:20 --> Undefined array key 0
+in APPPATH/Controllers/LearnerWorkplace.php on line 12.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 06:59:21 --> Undefined array key 0
+in APPPATH/Controllers/LearnerWorkplace.php on line 12.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 06:59:46 --> Undefined array key 0
+in APPPATH/Controllers/LearnerWorkplace.php on line 12.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:02:25 --> Array to string conversion
+in APPPATH/Controllers/LearnerWorkplace.php on line 14.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:02:42 --> syntax error, unexpected double-quoted string "end"
+in APPPATH/Controllers/LearnerWorkplace.php on line 16.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:02:50 --> Array to string conversion
+in APPPATH/Controllers/LearnerWorkplace.php on line 14.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:03:25 --> Array to string conversion
+in APPPATH/Controllers/LearnerWorkplace.php on line 14.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:03:27 --> Array to string conversion
+in APPPATH/Controllers/LearnerWorkplace.php on line 14.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:05:12 --> Array to string conversion
+in APPPATH/Controllers/LearnerWorkplace.php on line 14.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:09:12 --> syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH/Controllers/LearnerWorkplace.php on line 23.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:09:13 --> syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH/Controllers/LearnerWorkplace.php on line 23.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:14:32 --> Array to string conversion
+in APPPATH/Controllers/LearnerWorkplace.php on line 22.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:14:47 --> Undefined array key "course_name"
+in APPPATH/Controllers/LearnerWorkplace.php on line 22.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:14:48 --> Undefined array key "course_name"
+in APPPATH/Controllers/LearnerWorkplace.php on line 22.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:15:00 --> Array to string conversion
+in APPPATH/Controllers/LearnerWorkplace.php on line 22.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:15:20 --> syntax error, unexpected token ";"
+in APPPATH/Controllers/LearnerWorkplace.php on line 22.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:21:55 --> syntax error, unexpected double-quoted string "course_name", expecting "," or ";"
+in APPPATH/Views/course_collection.php on line 36.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/LearnerWorkplace.php(27): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:22:32 --> Undefined variable $item
+in APPPATH/Views/course_collection.php on line 35.
+ 1 APPPATH/Views/course_collection.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_collection.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/LearnerWorkplace.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:22:42 --> Undefined variable $item
+in APPPATH/Views/course_collection.php on line 35.
+ 1 APPPATH/Views/course_collection.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_collection.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/LearnerWorkplace.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:23:02 --> Undefined variable $data
+in APPPATH/Views/course_collection.php on line 35.
+ 1 APPPATH/Views/course_collection.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_collection.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/LearnerWorkplace.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 07:24:17 --> Undefined variable $data
+in APPPATH/Views/course_collection.php on line 35.
+ 1 APPPATH/Views/course_collection.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_collection.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/LearnerWorkplace.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-19 09:14:21 --> mysqli_sql_exception: Unknown column 'course_id' in 'field list' in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/Collection_model.php(26): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseCollection.php(21): App\Models\Collection_model->addCollection()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseCollection->addCollection()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-19 09:14:21 --> Unknown column 'course_id' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Collection_model.php(26): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/CourseCollection.php(21): App\Models\Collection_model->addCollection()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseCollection->addCollection()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-19 09:15:06 --> mysqli_sql_exception: Column 'ulid' cannot be null in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/Collection_model.php(26): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseCollection.php(21): App\Models\Collection_model->addCollection()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseCollection->addCollection()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-19 09:15:06 --> Column 'ulid' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Collection_model.php(26): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/CourseCollection.php(21): App\Models\Collection_model->addCollection()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseCollection->addCollection()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-19 10:44:51 --> mysqli_sql_exception: Column 'ulid' cannot be null in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/Collection_model.php(26): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseCollection.php(21): App\Models\Collection_model->addCollection()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseCollection->addCollection()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-19 10:44:51 --> Column 'ulid' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Collection_model.php(26): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/CourseCollection.php(21): App\Models\Collection_model->addCollection()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseCollection->addCollection()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 10:55:32 --> Undefined array key 0
+in APPPATH/Controllers/CourseCollection.php on line 24.
+ 1 APPPATH/Controllers/CourseCollection.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseCollection->addCollection()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 10:57:01 --> Undefined array key 0
+in APPPATH/Controllers/CourseCollection.php on line 24.
+ 1 APPPATH/Controllers/CourseCollection.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseCollection->addCollection()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 11:25:43 --> Undefined variable $item
+in APPPATH/Views/course_enrolled.php on line 15.
+ 1 APPPATH/Views/course_enrolled.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_enrolled.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/LearnerWorkplace.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 11:49:03 --> Invalid file: "auto.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/TryAuto.php(8): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryAuto->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 11:49:04 --> Invalid file: "auto.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/TryAuto.php(8): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryAuto->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 11:49:15 --> Invalid file: "auto.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/TryAuto.php(8): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryAuto->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 22:41:34 --> Undefined variable $email
+in APPPATH/Views/educator_course_list.php on line 32.
+ 1 APPPATH/Views/educator_course_list.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/educator_course_list.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/EducatorWorkplace.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EducatorWorkplace->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 23:21:08 --> Class "App\Models\EducatorNewCourse_model" not found
+in APPPATH/Controllers/EducatorWorkplace.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EducatorWorkplace->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 23:22:15 --> Undefined property: stdClass::$course_id
+in APPPATH/Controllers/EducatorWorkplace.php on line 14.
+ 1 APPPATH/Controllers/EducatorWorkplace.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EducatorWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 23:26:58 --> Undefined property: stdClass::$course_id
+in APPPATH/Controllers/EducatorWorkplace.php on line 17.
+ 1 APPPATH/Controllers/EducatorWorkplace.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EducatorWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 23:33:29 --> Undefined property: stdClass::$course_id
+in APPPATH/Controllers/EducatorWorkplace.php on line 17.
+ 1 APPPATH/Controllers/EducatorWorkplace.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EducatorWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 23:34:14 --> Undefined property: stdClass::$course_id
+in APPPATH/Controllers/EducatorWorkplace.php on line 15.
+ 1 APPPATH/Controllers/EducatorWorkplace.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EducatorWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 23:34:46 --> Undefined property: stdClass::$course_id
+in APPPATH/Controllers/EducatorWorkplace.php on line 15.
+ 1 APPPATH/Controllers/EducatorWorkplace.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EducatorWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 23:36:58 --> Undefined property: stdClass::$course_id
+in APPPATH/Controllers/EducatorWorkplace.php on line 16.
+ 1 APPPATH/Controllers/EducatorWorkplace.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EducatorWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

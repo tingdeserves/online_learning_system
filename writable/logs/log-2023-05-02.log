@@ -1,0 +1,92 @@
+CRITICAL - 2023-05-02 06:46:54 --> Undefined array key 0
+in APPPATH/Controllers/CourseCollection.php on line 23.
+ 1 APPPATH/Controllers/CourseCollection.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseCollection->addCollection()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 11:52:16 --> Undefined variable $ulid
+in APPPATH/Models/SecretQuestions_model.php on line 112.
+ 1 APPPATH/Models/SecretQuestions_model.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/PasswordReset.php(49): App\Models\SecretQuestions_model->verify_answers()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_answers()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 11:52:18 --> Undefined variable $ulid
+in APPPATH/Models/SecretQuestions_model.php on line 112.
+ 1 APPPATH/Models/SecretQuestions_model.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/PasswordReset.php(49): App\Models\SecretQuestions_model->verify_answers()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_answers()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 11:52:19 --> Undefined variable $ulid
+in APPPATH/Models/SecretQuestions_model.php on line 112.
+ 1 APPPATH/Models/SecretQuestions_model.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/PasswordReset.php(49): App\Models\SecretQuestions_model->verify_answers()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_answers()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 11:52:19 --> Undefined variable $ulid
+in APPPATH/Models/SecretQuestions_model.php on line 112.
+ 1 APPPATH/Models/SecretQuestions_model.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/PasswordReset.php(49): App\Models\SecretQuestions_model->verify_answers()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_answers()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 11:52:19 --> Undefined variable $ulid
+in APPPATH/Models/SecretQuestions_model.php on line 112.
+ 1 APPPATH/Models/SecretQuestions_model.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/PasswordReset.php(49): App\Models\SecretQuestions_model->verify_answers()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_answers()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 12:52:11 --> Array to string conversion
+in APPPATH/Views/pasword_reset.php on line 56.
+ 1 APPPATH/Views/pasword_reset.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pasword_reset.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PasswordReset.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 12:57:45 --> Too few arguments to function App\Controllers\PasswordReset::submit_new_pw(), 0 passed in /var/www/htdocs/myproj/system/CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH/Controllers/PasswordReset.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->submit_new_pw()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 13:00:01 --> Too few arguments to function App\Controllers\PasswordReset::submit_new_pw(), 0 passed in /var/www/htdocs/myproj/system/CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH/Controllers/PasswordReset.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->submit_new_pw()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-02 13:02:25 --> mysqli_sql_exception: Duplicate entry 'amyl' for key 'user_learner.ul_name' in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/SecretQuestions_model.php(141): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/myproj/app/Controllers/PasswordReset.php(73): App\Models\SecretQuestions_model->update_password()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\PasswordReset->submit_new_pw()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-02 13:02:25 --> Duplicate entry 'amyl' for key 'user_learner.ul_name'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/SecretQuestions_model.php(141): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/PasswordReset.php(73): App\Models\SecretQuestions_model->update_password()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->submit_new_pw()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

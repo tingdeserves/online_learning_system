@@ -1,0 +1,302 @@
+CRITICAL - 2023-03-28 01:18:18 --> Undefined variable $error
+in APPPATH/Views/register.php on line 12.
+ 1 APPPATH/Views/register.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:19:03 --> Undefined variable $error
+in APPPATH/Views/register.php on line 12.
+ 1 APPPATH/Views/register.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:19:04 --> Undefined variable $error
+in APPPATH/Views/register.php on line 12.
+ 1 APPPATH/Views/register.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:19:46 --> Undefined variable $error
+in APPPATH/Views/register.php on line 12.
+ 1 APPPATH/Views/register.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:19:48 --> Undefined variable $error
+in APPPATH/Views/register.php on line 12.
+ 1 APPPATH/Views/register.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:19:48 --> Undefined variable $error
+in APPPATH/Views/register.php on line 12.
+ 1 APPPATH/Views/register.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:21:32 --> Undefined variable $error
+in APPPATH/Views/register.php on line 12.
+ 1 APPPATH/Views/register.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:22:54 --> Undefined variable $error
+in APPPATH/Views/register.php on line 12.
+ 1 APPPATH/Views/register.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:23:15 --> Undefined variable $error
+in APPPATH/Views/register.php on line 12.
+ 1 APPPATH/Views/register.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:23:16 --> Undefined variable $error
+in APPPATH/Views/register.php on line 12.
+ 1 APPPATH/Views/register.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:23:16 --> Undefined variable $error
+in APPPATH/Views/register.php on line 12.
+ 1 APPPATH/Views/register.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:24:11 --> Undefined variable $error
+in APPPATH/Views/register.php on line 12.
+ 1 APPPATH/Views/register.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(11): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:26:13 --> Undefined variable $error
+in APPPATH/Views/register.php on line 12.
+ 1 APPPATH/Views/register.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(11): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:26:14 --> Undefined variable $error
+in APPPATH/Views/register.php on line 12.
+ 1 APPPATH/Views/register.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(11): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-28 01:42:29 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/User_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/Login.php(36): App\Models\User_model->login()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\Login->check_login()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/htdocs/myproj/app/Models/User_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/htdocs/myproj/app/Controllers/Login.php(36): App\Models\User_model->login()
+#5 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\Login->check_login()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-28 01:42:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/User_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Login.php(36): App\Models\User_model->login()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-28 01:43:53 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/User_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/Login.php(36): App\Models\User_model->login()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\Login->check_login()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/htdocs/myproj/app/Models/User_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/htdocs/myproj/app/Controllers/Login.php(36): App\Models\User_model->login()
+#5 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\Login->check_login()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-28 01:43:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/User_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Login.php(36): App\Models\User_model->login()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-28 01:44:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/User_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/Login.php(36): App\Models\User_model->login()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\Login->check_login()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/htdocs/myproj/app/Models/User_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/htdocs/myproj/app/Controllers/Login.php(36): App\Models\User_model->login()
+#5 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\Login->check_login()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-28 01:44:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/User_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Login.php(36): App\Models\User_model->login()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-28 01:44:24 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/User_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/Login.php(36): App\Models\User_model->login()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\Login->check_login()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/htdocs/myproj/app/Models/User_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/htdocs/myproj/app/Controllers/Login.php(36): App\Models\User_model->login()
+#5 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\Login->check_login()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-28 01:44:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/User_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Login.php(36): App\Models\User_model->login()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

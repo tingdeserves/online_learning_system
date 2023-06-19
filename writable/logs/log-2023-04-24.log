@@ -1,0 +1,100 @@
+CRITICAL - 2023-04-24 01:46:56 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Profile.php on line 34.
+ 1 APPPATH/Controllers/Profile.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 02:39:13 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Profile.php on line 34.
+ 1 APPPATH/Controllers/Profile.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 02:40:27 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Profile.php on line 34.
+ 1 APPPATH/Controllers/Profile.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 02:41:35 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Profile.php on line 34.
+ 1 APPPATH/Controllers/Profile.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 02:41:38 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Profile.php on line 34.
+ 1 APPPATH/Controllers/Profile.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 02:46:27 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Profile.php on line 34.
+ 1 APPPATH/Controllers/Profile.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 06:03:34 --> Undefined variable $data
+in APPPATH/Controllers/LearnerWorkplace.php on line 24.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 06:03:39 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Profile.php on line 34.
+ 1 APPPATH/Controllers/Profile.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 06:03:41 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Profile.php on line 34.
+ 1 APPPATH/Controllers/Profile.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 06:06:20 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Profile.php on line 34.
+ 1 APPPATH/Controllers/Profile.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 06:08:18 --> Undefined variable $data
+in APPPATH/Controllers/LearnerWorkplace.php on line 24.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 06:17:46 --> Invalid file: "home.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/LearnerLogin.php(44): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerLogin->check_login()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 06:21:34 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Profile.php on line 34.
+ 1 APPPATH/Controllers/Profile.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 06:21:34 --> Undefined variable $data
+in APPPATH/Controllers/LearnerWorkplace.php on line 24.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

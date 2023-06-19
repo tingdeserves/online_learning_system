@@ -1,0 +1,208 @@
+CRITICAL - 2023-04-27 00:00:42 --> Unmatched '}'
+in APPPATH/Controllers/Profile.php on line 260.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 00:00:43 --> Unmatched '}'
+in APPPATH/Controllers/Profile.php on line 260.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 00:00:46 --> Unmatched '}'
+in APPPATH/Controllers/Profile.php on line 260.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 00:01:13 --> Cannot use empty array elements in arrays
+in APPPATH/Config/Routes.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-27 00:01:14 --> Cannot use empty array elements in arrays
+in APPPATH/Config/Routes.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-27 01:07:32 --> Undefined array key "verification_code"
+in APPPATH/Controllers/Profile.php on line 229.
+ 1 APPPATH/Controllers/Profile.php(229): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->verifyCode()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:07:51 --> Undefined array key "verification_code"
+in APPPATH/Controllers/Profile.php on line 229.
+ 1 APPPATH/Controllers/Profile.php(229): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->verifyCode()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:09:07 --> Undefined array key "verification_code"
+in APPPATH/Controllers/Profile.php on line 229.
+ 1 APPPATH/Controllers/Profile.php(229): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->verifyCode()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:09:37 --> Undefined array key "verification_code"
+in APPPATH/Controllers/Profile.php on line 229.
+ 1 APPPATH/Controllers/Profile.php(229): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->verifyCode()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:16:28 --> Call to undefined method CodeIgniter\Router\RouteCollection::()
+in SYSTEMPATH/Router/RouteCollection.php on line 904.
+ 1 APPPATH/Config/Routes.php(74): CodeIgniter\Router\RouteCollection->match()
+ 2 SYSTEMPATH/Router/RouteCollection.php(267): require('APPPATH/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:17:17 --> Call to undefined method CodeIgniter\Router\RouteCollection::()
+in SYSTEMPATH/Router/RouteCollection.php on line 904.
+ 1 APPPATH/Config/Routes.php(74): CodeIgniter\Router\RouteCollection->match()
+ 2 SYSTEMPATH/Router/RouteCollection.php(267): require('APPPATH/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:17:25 --> Cannot use empty array elements in arrays
+in APPPATH/Config/Routes.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-27 02:04:31 --> Undefined property: App\Controllers\Profile::$input
+in APPPATH/Controllers/Profile.php on line 229.
+ 1 APPPATH/Controllers/Profile.php(229): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->verifyCode()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 02:04:49 --> Undefined property: App\Controllers\Profile::$input
+in APPPATH/Controllers/Profile.php on line 229.
+ 1 APPPATH/Controllers/Profile.php(229): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->verifyCode()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 02:05:14 --> Undefined property: App\Controllers\Profile::$input
+in APPPATH/Controllers/Profile.php on line 229.
+ 1 APPPATH/Controllers/Profile.php(229): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->verifyCode()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 02:24:33 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getAJAXPOST()
+in APPPATH/Controllers/Profile.php on line 229.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->verifyCode()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 02:34:12 --> Undefined array key "verification_code"
+in APPPATH/Controllers/Profile.php on line 230.
+ 1 APPPATH/Controllers/Profile.php(230): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->verifyCode()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 02:34:50 --> Undefined array key "verification_code"
+in APPPATH/Controllers/Profile.php on line 230.
+ 1 APPPATH/Controllers/Profile.php(230): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->verifyCode()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 02:37:24 --> Undefined array key "verification_code"
+in APPPATH/Controllers/Profile.php on line 230.
+ 1 APPPATH/Controllers/Profile.php(230): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->verifyCode()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 02:46:28 --> Undefined array key "verification_code"
+in APPPATH/Controllers/Profile.php on line 231.
+ 1 APPPATH/Controllers/Profile.php(231): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->verifyCode()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 02:51:14 --> Array to string conversion
+in APPPATH/Controllers/Profile.php on line 236.
+ 1 APPPATH/Controllers/Profile.php(236): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->verifyCode()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 02:52:49 --> Undefined array key "code"
+in APPPATH/Controllers/Profile.php on line 236.
+ 1 APPPATH/Controllers/Profile.php(236): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->verifyCode()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 03:11:47 --> Undefined property: stdClass::$verify
+in APPPATH/Controllers/Profile.php on line 46.
+ 1 APPPATH/Controllers/Profile.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 09:49:45 --> Call to a member function getExtension() on null
+in APPPATH/Controllers/EducatorWorkplace.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EducatorWorkplace->releaseCourses()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 09:51:12 --> Call to a member function move() on null
+in APPPATH/Controllers/EducatorWorkplace.php on line 54.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EducatorWorkplace->releaseCourses()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 09:52:12 --> Call to a member function getExtension() on null
+in APPPATH/Controllers/EducatorWorkplace.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EducatorWorkplace->releaseCourses()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 09:53:26 --> Call to a member function getExtension() on null
+in APPPATH/Controllers/EducatorWorkplace.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EducatorWorkplace->releaseCourses()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 09:58:37 --> Call to a member function getExtension() on null
+in APPPATH/Controllers/EducatorWorkplace.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EducatorWorkplace->releaseCourses()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 10:03:19 --> Call to a member function move() on null
+in APPPATH/Controllers/EducatorWorkplace.php on line 55.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EducatorWorkplace->releaseCourses()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 10:09:40 --> Undefined array key 0
+in APPPATH/Models/CourseDetail_model.php on line 58.
+ 1 APPPATH/Models/CourseDetail_model.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CourseDetail.php(81): App\Models\CourseDetail_model->addComments_l()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 10:12:18 --> Undefined array key 0
+in APPPATH/Models/CourseDetail_model.php on line 58.
+ 1 APPPATH/Models/CourseDetail_model.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CourseDetail.php(81): App\Models\CourseDetail_model->addComments_l()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

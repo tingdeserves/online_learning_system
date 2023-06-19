@@ -1,0 +1,106 @@
+CRITICAL - 2023-05-04 00:02:59 --> Undefined variable $data
+in APPPATH/Controllers/LearnerWorkplace.php on line 27.
+ 1 APPPATH/Controllers/LearnerWorkplace.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 00:05:07 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/LearnerWorkplace.php on line 35.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 00:09:19 --> Undefined variable $username
+in APPPATH/Controllers/StripeCheckout.php on line 8.
+ 1 APPPATH/Controllers/StripeCheckout.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\StripeCheckout->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 02:39:17 --> No API key provided.  (HINT: set your API key using "Stripe::setApiKey(<API-KEY>)".  You can generate API keys from the Stripe web interface.  See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+in VENDORPATH/stripe/stripe-php/lib/ApiRequestor.php on line 367.
+ 1 VENDORPATH/stripe/stripe-php/lib/ApiRequestor.php(447): Stripe\ApiRequestor->_prepareRequest()
+ 2 VENDORPATH/stripe/stripe-php/lib/ApiRequestor.php(123): Stripe\ApiRequestor->_requestRaw()
+ 3 VENDORPATH/stripe/stripe-php/lib/ApiResource.php(58): Stripe\ApiRequestor->request()
+ 4 VENDORPATH/stripe/stripe-php/lib/ApiOperations/Retrieve.php(26): Stripe\ApiResource->refresh()
+ 5 APPPATH/Views/blank_page/checkout_success.php(15): Stripe\Checkout\Session::retrieve()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/blank_page/checkout_success.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/StripeCheckout.php(26): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\StripeCheckout->success()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 02:39:35 --> No API key provided.  (HINT: set your API key using "Stripe::setApiKey(<API-KEY>)".  You can generate API keys from the Stripe web interface.  See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+in VENDORPATH/stripe/stripe-php/lib/ApiRequestor.php on line 367.
+ 1 VENDORPATH/stripe/stripe-php/lib/ApiRequestor.php(447): Stripe\ApiRequestor->_prepareRequest()
+ 2 VENDORPATH/stripe/stripe-php/lib/ApiRequestor.php(123): Stripe\ApiRequestor->_requestRaw()
+ 3 VENDORPATH/stripe/stripe-php/lib/ApiResource.php(58): Stripe\ApiRequestor->request()
+ 4 VENDORPATH/stripe/stripe-php/lib/ApiOperations/Retrieve.php(26): Stripe\ApiResource->refresh()
+ 5 APPPATH/Views/blank_page/checkout_success.php(15): Stripe\Checkout\Session::retrieve()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/blank_page/checkout_success.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/StripeCheckout.php(26): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\StripeCheckout->success()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 02:53:24 --> Unclosed '{' on line 14
+in APPPATH/Views/course_enrolled.php on line 38.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/LearnerWorkplace.php(32): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 02:53:38 --> Undefined array key "paid"
+in APPPATH/Views/course_enrolled.php on line 14.
+ 1 APPPATH/Views/course_enrolled.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_enrolled.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/LearnerWorkplace.php(32): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 02:53:55 --> Undefined array key "status_paid"
+in APPPATH/Views/course_enrolled.php on line 14.
+ 1 APPPATH/Views/course_enrolled.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_enrolled.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/LearnerWorkplace.php(32): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 03:42:40 --> Undefined array key "course_id"
+in APPPATH/Views/course_collection.php on line 19.
+ 1 APPPATH/Views/course_collection.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_collection.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/LearnerWorkplace.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 03:43:45 --> Undefined array key "course_id"
+in APPPATH/Views/course_collection.php on line 19.
+ 1 APPPATH/Views/course_collection.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_collection.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/LearnerWorkplace.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LearnerWorkplace->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

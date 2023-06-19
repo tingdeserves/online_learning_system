@@ -1,0 +1,214 @@
+CRITICAL - 2023-04-28 04:25:13 --> Undefined variable $sq_set
+in APPPATH/Views/profile.php on line 46.
+ 1 APPPATH/Views/profile.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Profile.php(51): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 04:56:22 --> Attempt to read property "ulid" on array
+in APPPATH/Models/SecretQuestions_model.php on line 15.
+ 1 APPPATH/Models/SecretQuestions_model.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(44): App\Models\SecretQuestions_model->if_sq_set()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 11:16:10 --> Undefined variable $err
+in APPPATH/Views/secret_questions.php on line 59.
+ 1 APPPATH/Views/secret_questions.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/secret_questions.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Profile.php(270): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->sq_form()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-28 11:33:35 --> mysqli_sql_exception: Unknown column 'answer1' in 'field list' in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/SecretQuestions_model.php(49): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/myproj/app/Controllers/Profile.php(298): App\Models\SecretQuestions_model->set_sq()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\Profile->insert_sq()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-28 11:33:35 --> Unknown column 'answer1' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/SecretQuestions_model.php(49): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Profile.php(298): App\Models\SecretQuestions_model->set_sq()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->insert_sq()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-28 11:35:45 --> mysqli_sql_exception: Unknown column 'answer1' in 'field list' in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/SecretQuestions_model.php(49): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/myproj/app/Controllers/Profile.php(298): App\Models\SecretQuestions_model->set_sq()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\Profile->insert_sq()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-28 11:35:45 --> Unknown column 'answer1' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/SecretQuestions_model.php(49): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Profile.php(298): App\Models\SecretQuestions_model->set_sq()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->insert_sq()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:12:25 --> Undefined array key 0
+in APPPATH/Models/SecretQuestions_model.php on line 67.
+ 1 APPPATH/Models/SecretQuestions_model.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/PasswordReset.php(22): App\Models\SecretQuestions_model->verify_username()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_username()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:12:26 --> Undefined array key 0
+in APPPATH/Models/SecretQuestions_model.php on line 67.
+ 1 APPPATH/Models/SecretQuestions_model.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/PasswordReset.php(22): App\Models\SecretQuestions_model->verify_username()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_username()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:12:26 --> Undefined array key 0
+in APPPATH/Models/SecretQuestions_model.php on line 67.
+ 1 APPPATH/Models/SecretQuestions_model.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/PasswordReset.php(22): App\Models\SecretQuestions_model->verify_username()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_username()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:12:26 --> Undefined array key 0
+in APPPATH/Models/SecretQuestions_model.php on line 67.
+ 1 APPPATH/Models/SecretQuestions_model.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/PasswordReset.php(22): App\Models\SecretQuestions_model->verify_username()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_username()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:12:27 --> Undefined array key 0
+in APPPATH/Models/SecretQuestions_model.php on line 67.
+ 1 APPPATH/Models/SecretQuestions_model.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/PasswordReset.php(22): App\Models\SecretQuestions_model->verify_username()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_username()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:12:52 --> Undefined array key 0
+in APPPATH/Models/SecretQuestions_model.php on line 67.
+ 1 APPPATH/Models/SecretQuestions_model.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/PasswordReset.php(22): App\Models\SecretQuestions_model->verify_username()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_username()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:12:52 --> Undefined array key 0
+in APPPATH/Models/SecretQuestions_model.php on line 67.
+ 1 APPPATH/Models/SecretQuestions_model.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/PasswordReset.php(22): App\Models\SecretQuestions_model->verify_username()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_username()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:12:55 --> Undefined array key 0
+in APPPATH/Models/SecretQuestions_model.php on line 67.
+ 1 APPPATH/Models/SecretQuestions_model.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/PasswordReset.php(22): App\Models\SecretQuestions_model->verify_username()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_username()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 14:55:39 --> Undefined array key " data "
+in APPPATH/Controllers/PasswordReset.php on line 43.
+ 1 APPPATH/Controllers/PasswordReset.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_answers()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 14:58:55 --> Undefined array key " data "
+in APPPATH/Controllers/PasswordReset.php on line 43.
+ 1 APPPATH/Controllers/PasswordReset.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_answers()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 15:00:04 --> Undefined array key " l_username "
+in APPPATH/Controllers/PasswordReset.php on line 43.
+ 1 APPPATH/Controllers/PasswordReset.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_answers()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 15:00:16 --> Undefined array key " l_username "
+in APPPATH/Controllers/PasswordReset.php on line 43.
+ 1 APPPATH/Controllers/PasswordReset.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_answers()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 15:04:21 --> Undefined array key " l_username "
+in APPPATH/Controllers/PasswordReset.php on line 43.
+ 1 APPPATH/Controllers/PasswordReset.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_answers()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 15:04:56 --> Undefined array key " l_username "
+in APPPATH/Controllers/PasswordReset.php on line 43.
+ 1 APPPATH/Controllers/PasswordReset.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_answers()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 15:05:27 --> Undefined array key " l_username "
+in APPPATH/Controllers/PasswordReset.php on line 43.
+ 1 APPPATH/Controllers/PasswordReset.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_answers()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 15:05:31 --> Undefined array key " l_username "
+in APPPATH/Controllers/PasswordReset.php on line 43.
+ 1 APPPATH/Controllers/PasswordReset.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_answers()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 15:08:08 --> Undefined array key " l_username "
+in APPPATH/Controllers/PasswordReset.php on line 43.
+ 1 APPPATH/Controllers/PasswordReset.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_answers()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 15:08:32 --> Undefined array key " answer1 "
+in APPPATH/Controllers/PasswordReset.php on line 44.
+ 1 APPPATH/Controllers/PasswordReset.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_answers()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 15:24:53 --> Undefined constant "App\Controllers\answer1"
+in APPPATH/Controllers/PasswordReset.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PasswordReset->verify_answers()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

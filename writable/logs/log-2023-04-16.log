@@ -1,0 +1,2001 @@
+CRITICAL - 2023-04-16 01:02:37 --> Undefined variable $courseimg
+in APPPATH/Views/course_detail.php on line 13.
+ 1 APPPATH/Views/course_detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:04:37 --> Undefined variable $courseimg
+in APPPATH/Views/course_detail.php on line 13.
+ 1 APPPATH/Views/course_detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:04:38 --> Undefined variable $courseimg
+in APPPATH/Views/course_detail.php on line 13.
+ 1 APPPATH/Views/course_detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:06:28 --> Undefined variable $courseimg
+in APPPATH/Views/course_detail.php on line 13.
+ 1 APPPATH/Views/course_detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:06:29 --> Undefined variable $courseimg
+in APPPATH/Views/course_detail.php on line 13.
+ 1 APPPATH/Views/course_detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:07:12 --> Class "App\Models\Course_model" not found
+in APPPATH/Controllers/CourseDetail.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:07:57 --> Class "App\Models\CourseDetail_model" not found
+in APPPATH/Controllers/CourseDetail.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:07:59 --> Class "App\Models\CourseDetail_model" not found
+in APPPATH/Controllers/CourseDetail.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:08:59 --> Class "App\Models\CourseDetail_model" not found
+in APPPATH/Controllers/CourseDetail.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:09:04 --> Class "App\Models\CourseDetail_model" not found
+in APPPATH/Controllers/CourseDetail.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:09:19 --> Class "App\Models\CourseDetail_model" not found
+in APPPATH/Controllers/CourseDetail.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:09:19 --> Class "App\Models\CourseDetail_model" not found
+in APPPATH/Controllers/CourseDetail.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:09:53 --> Class "App\Models\CourseDetail_model" not found
+in APPPATH/Controllers/CourseDetail.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:12:16 --> Undefined variable $courseimg
+in APPPATH/Views/course_detail.php on line 13.
+ 1 APPPATH/Views/course_detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:13:01 --> Class "App\Models\CourseDetail_model" not found
+in APPPATH/Controllers/CourseDetail.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:14:46 --> Class "App\Models\CourseDetail_model" not found
+in APPPATH/Controllers/CourseDetail.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:18:26 --> Class "App\Models\CourseDetail_model" not found
+in APPPATH/Controllers/CourseDetail.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:18:51 --> Undefined variable $db
+in APPPATH/Models/CourseDetail_model.php on line 6.
+ 1 APPPATH/Models/CourseDetail_model.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CourseDetail.php(12): App\Models\CourseDetail_model->getimg()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:19:17 --> Undefined variable $builder
+in APPPATH/Models/CourseDetail_model.php on line 8.
+ 1 APPPATH/Models/CourseDetail_model.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CourseDetail.php(12): App\Models\CourseDetail_model->getimg()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:19:37 --> Undefined variable $query
+in APPPATH/Models/CourseDetail_model.php on line 10.
+ 1 APPPATH/Models/CourseDetail_model.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CourseDetail.php(12): App\Models\CourseDetail_model->getimg()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:20:07 --> Undefined variable $coursename
+in APPPATH/Views/course_detail.php on line 3.
+ 1 APPPATH/Views/course_detail.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(16): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:20:35 --> Undefined variable $course_name
+in APPPATH/Views/course_detail.php on line 3.
+ 1 APPPATH/Views/course_detail.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(16): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:21:00 --> Undefined variable $course_name
+in APPPATH/Views/course_detail.php on line 3.
+ 1 APPPATH/Views/course_detail.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(16): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:21:26 --> Undefined array key 0
+in APPPATH/Controllers/CourseDetail.php on line 16.
+ 1 APPPATH/Controllers/CourseDetail.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:21:52 --> Undefined property: stdClass::$courseimg
+in APPPATH/Controllers/CourseDetail.php on line 16.
+ 1 APPPATH/Controllers/CourseDetail.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:21:52 --> Undefined property: stdClass::$courseimg
+in APPPATH/Controllers/CourseDetail.php on line 16.
+ 1 APPPATH/Controllers/CourseDetail.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:23:09 --> Undefined property: stdClass::$courseimg
+in APPPATH/Controllers/CourseDetail.php on line 16.
+ 1 APPPATH/Controllers/CourseDetail.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:23:09 --> Undefined property: stdClass::$courseimg
+in APPPATH/Controllers/CourseDetail.php on line 16.
+ 1 APPPATH/Controllers/CourseDetail.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:23:49 --> Undefined property: stdClass::$courseimg
+in APPPATH/Controllers/CourseDetail.php on line 16.
+ 1 APPPATH/Controllers/CourseDetail.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:34:46 --> Array to string conversion
+in APPPATH/Controllers/CourseDetail.php on line 18.
+ 1 APPPATH/Controllers/CourseDetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:35:03 --> Array to string conversion
+in APPPATH/Controllers/CourseDetail.php on line 18.
+ 1 APPPATH/Controllers/CourseDetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 01:39:25 --> Undefined variable $ue_name
+in APPPATH/Views/course_detail.php on line 30.
+ 1 APPPATH/Views/course_detail.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 02:48:08 --> File not found: "/path/to/image.jpg"
+in SYSTEMPATH/Files/File.php on line 47.
+ 1 SYSTEMPATH/Files/File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct()
+ 3 APPPATH/Controllers/TryImagick.php(9): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 02:48:37 --> File not found: "/path/to/image.jpg"
+in SYSTEMPATH/Files/File.php on line 47.
+ 1 SYSTEMPATH/Files/File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct()
+ 3 APPPATH/Controllers/TryImagick.php(9): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 02:48:38 --> File not found: "/path/to/image.jpg"
+in SYSTEMPATH/Files/File.php on line 47.
+ 1 SYSTEMPATH/Files/File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct()
+ 3 APPPATH/Controllers/TryImagick.php(9): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 02:48:44 --> File not found: "/path/to/image.jpg"
+in SYSTEMPATH/Files/File.php on line 47.
+ 1 SYSTEMPATH/Files/File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct()
+ 3 APPPATH/Controllers/TryImagick.php(9): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 02:49:05 --> Invalid file: "try_imagick.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/TryImagick.php(16): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 02:49:59 --> Invalid file: "try_imagick.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/TryImagick.php(16): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:21:00 --> Undefined variable $rotateImagePath
+in APPPATH/Views/try_imagick.php on line 13.
+ 1 APPPATH/Views/try_imagick.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/try_imagick.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TryImagick.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:21:31 --> syntax error, unexpected token ";"
+in APPPATH/Views/try_imagick.php on line 13.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/TryImagick.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:21:32 --> syntax error, unexpected token ";"
+in APPPATH/Views/try_imagick.php on line 13.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/TryImagick.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:21:48 --> Undefined variable $rotateImagePath
+in APPPATH/Views/try_imagick.php on line 13.
+ 1 APPPATH/Views/try_imagick.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/try_imagick.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TryImagick.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:21:49 --> Undefined variable $rotateImagePath
+in APPPATH/Views/try_imagick.php on line 13.
+ 1 APPPATH/Views/try_imagick.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/try_imagick.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TryImagick.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:21:54 --> syntax error, unexpected token ";"
+in APPPATH/Views/try_imagick.php on line 13.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/TryImagick.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:23:12 --> Undefined variable $rotateImagePath
+in APPPATH/Views/try_imagick.php on line 13.
+ 1 APPPATH/Views/try_imagick.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/try_imagick.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TryImagick.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:25:25 --> Undefined variable $rotateImagePath
+in APPPATH/Views/try_imagick.php on line 13.
+ 1 APPPATH/Views/try_imagick.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/try_imagick.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TryImagick.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:25:38 --> view(): Argument #2 ($data) must be of type array, string given, called in /var/www/htdocs/myproj/app/Controllers/TryImagick.php on line 12
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/TryImagick.php(12): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:25:39 --> view(): Argument #2 ($data) must be of type array, string given, called in /var/www/htdocs/myproj/app/Controllers/TryImagick.php on line 12
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/TryImagick.php(12): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:29:20 --> Undefined constant "App\Controllers\imagePath"
+in APPPATH/Controllers/TryImagick.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:29:53 --> Undefined variable $rotateImagePath
+in APPPATH/Views/try_imagick.php on line 14.
+ 1 APPPATH/Views/try_imagick.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/try_imagick.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TryImagick.php(16): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:29:53 --> Undefined variable $rotateImagePath
+in APPPATH/Views/try_imagick.php on line 14.
+ 1 APPPATH/Views/try_imagick.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/try_imagick.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TryImagick.php(16): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:31:35 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/TryImagick.php on line 18.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:31:36 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/TryImagick.php on line 18.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:35:24 --> syntax error, unexpected token "return"
+in APPPATH/Controllers/TryImagick.php on line 39.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:35:25 --> syntax error, unexpected token "return"
+in APPPATH/Controllers/TryImagick.php on line 39.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:35:30 --> syntax error, unexpected token "return"
+in APPPATH/Controllers/TryImagick.php on line 39.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:35:32 --> syntax error, unexpected token "return"
+in APPPATH/Controllers/TryImagick.php on line 39.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:36:18 --> Undefined variable $rotateImagePath
+in APPPATH/Controllers/TryImagick.php on line 18.
+ 1 APPPATH/Controllers/TryImagick.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:36:18 --> Undefined variable $rotateImagePath
+in APPPATH/Controllers/TryImagick.php on line 18.
+ 1 APPPATH/Controllers/TryImagick.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:55:19 --> Undefined variable $rotateImagePath
+in APPPATH/Controllers/TryImagick.php on line 18.
+ 1 APPPATH/Controllers/TryImagick.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:55:19 --> Undefined variable $rotateImagePath
+in APPPATH/Controllers/TryImagick.php on line 18.
+ 1 APPPATH/Controllers/TryImagick.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:56:01 --> Undefined variable $rotateImagePath
+in APPPATH/Controllers/TryImagick.php on line 18.
+ 1 APPPATH/Controllers/TryImagick.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:56:03 --> Undefined variable $rotateImagePath
+in APPPATH/Controllers/TryImagick.php on line 18.
+ 1 APPPATH/Controllers/TryImagick.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:56:07 --> Undefined variable $rotateImagePath
+in APPPATH/Controllers/TryImagick.php on line 18.
+ 1 APPPATH/Controllers/TryImagick.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:56:23 --> Undefined variable $rotateImagePath
+in APPPATH/Controllers/TryImagick.php on line 18.
+ 1 APPPATH/Controllers/TryImagick.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:56:23 --> Undefined variable $rotateImagePath
+in APPPATH/Controllers/TryImagick.php on line 18.
+ 1 APPPATH/Controllers/TryImagick.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:57:31 --> syntax error, unexpected variable "$output"
+in APPPATH/Controllers/TryImagick.php on line 13.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 03:57:32 --> syntax error, unexpected variable "$output"
+in APPPATH/Controllers/TryImagick.php on line 13.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:01:53 --> Class "App\Controllers\ImageModel" not found
+in APPPATH/Controllers/TryImagick.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:01:57 --> Class "App\Controllers\ImageModel" not found
+in APPPATH/Controllers/TryImagick.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:09:52 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/TryImagick.php(33): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:10:13 --> Class "Imagick" not found
+in APPPATH/Models/TryImagick_model.php on line 7.
+ 1 APPPATH/Controllers/TryImagick.php(33): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:20:23 --> Class "Imagick" not found
+in APPPATH/Models/TryImagick_model.php on line 14.
+ 1 APPPATH/Controllers/TryImagick.php(33): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:27:15 --> unable to open image `/var/www/htdocs/myproj/writable/uploads/infs7202_course.php': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/TryImagick_model.php on line 14.
+ 1 APPPATH/Models/TryImagick_model.php(14): Imagick->__construct()
+ 2 APPPATH/Controllers/TryImagick.php(33): App\Models\TryImagick_model->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:28:57 --> Call to undefined method Imagick::writrImage()
+in APPPATH/Models/TryImagick_model.php on line 16.
+ 1 APPPATH/Controllers/TryImagick.php(33): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:30:29 --> Imagick::writeImage() expects at most 1 argument, 2 given
+in APPPATH/Models/TryImagick_model.php on line 14.
+ 1 APPPATH/Models/TryImagick_model.php(14): Imagick->writeImage()
+ 2 APPPATH/Controllers/TryImagick.php(33): App\Models\TryImagick_model->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:35:11 --> Undefined constant "App\Models\imagick"
+in APPPATH/Models/TryImagick_model.php on line 15.
+ 1 APPPATH/Controllers/TryImagick.php(33): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:38:05 --> Undefined constant "App\Models\imagick"
+in APPPATH/Models/TryImagick_model.php on line 18.
+ 1 APPPATH/Controllers/TryImagick.php(33): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:38:29 --> Undefined constant "App\Models\imagick"
+in APPPATH/Models/TryImagick_model.php on line 20.
+ 1 APPPATH/Controllers/TryImagick.php(33): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:40:31 --> You must specify a source image in your preferences.
+in SYSTEMPATH/Images/Handlers/BaseHandler.php on line 187.
+ 1 SYSTEMPATH/Images/Handlers/BaseHandler.php(187): CodeIgniter\Images\Exceptions\ImageException::forMissingImage()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(711): CodeIgniter\Images\Handlers\BaseHandler->image()
+ 3 APPPATH/Models/TryImagick_model.php(14): CodeIgniter\Images\Handlers\BaseHandler->__call()
+ 4 APPPATH/Controllers/TryImagick.php(33): App\Models\TryImagick_model->rotate()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:51:07 --> File not found: "/var/www/htdocs/myproj/writable/uploads/"
+in SYSTEMPATH/Files/File.php on line 47.
+ 1 SYSTEMPATH/Files/File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct()
+ 3 APPPATH/Models/TryImagick_model.php(17): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+ 4 APPPATH/Controllers/TryImagick.php(33): App\Models\TryImagick_model->rotate()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:52:16 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 21.
+ 1 APPPATH/Controllers/TryImagick.php(33): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:52:58 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 21.
+ 1 APPPATH/Controllers/TryImagick.php(33): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:54:18 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 21.
+ 1 APPPATH/Controllers/TryImagick.php(34): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:56:15 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 21.
+ 1 APPPATH/Controllers/TryImagick.php(34): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:56:59 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 21.
+ 1 APPPATH/Controllers/TryImagick.php(35): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:57:26 --> File not found: "/var/www/htdocs/myproj/writable/writable/uploads/infs7202_course.png"
+in SYSTEMPATH/Files/File.php on line 47.
+ 1 SYSTEMPATH/Files/File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct()
+ 3 APPPATH/Models/TryImagick_model.php(17): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+ 4 APPPATH/Controllers/TryImagick.php(35): App\Models\TryImagick_model->rotate()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:57:37 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 21.
+ 1 APPPATH/Controllers/TryImagick.php(35): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 04:58:12 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 21.
+ 1 APPPATH/Controllers/TryImagick.php(35): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:02:32 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 21.
+ 1 APPPATH/Controllers/TryImagick.php(35): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:03:00 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 21.
+ 1 APPPATH/Controllers/TryImagick.php(35): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:03:35 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 21.
+ 1 APPPATH/Controllers/TryImagick.php(35): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:04:09 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 21.
+ 1 APPPATH/Controllers/TryImagick.php(35): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:06:31 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 21.
+ 1 APPPATH/Controllers/TryImagick.php(36): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:06:45 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 21.
+ 1 APPPATH/Controllers/TryImagick.php(37): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:08:48 --> Undefined variable $imagePath
+in APPPATH/Controllers/TryImagick.php on line 43.
+ 1 APPPATH/Controllers/TryImagick.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:09:28 --> Undefined variable $imagePath
+in APPPATH/Controllers/TryImagick.php on line 47.
+ 1 APPPATH/Controllers/TryImagick.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:16:16 --> Undefined variable $rotateImagePath
+in APPPATH/Views/try_imagick.php on line 14.
+ 1 APPPATH/Views/try_imagick.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/try_imagick.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TryImagick.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:16:17 --> Undefined variable $rotateImagePath
+in APPPATH/Views/try_imagick.php on line 14.
+ 1 APPPATH/Views/try_imagick.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/try_imagick.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TryImagick.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:17:09 --> Undefined variable $rotateImagePath
+in APPPATH/Views/try_imagick.php on line 14.
+ 1 APPPATH/Views/try_imagick.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/try_imagick.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TryImagick.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:17:27 --> Undefined variable $rotateImagePath
+in APPPATH/Views/try_imagick.php on line 14.
+ 1 APPPATH/Views/try_imagick.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/try_imagick.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TryImagick.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:18:24 --> Undefined variable $rotateImagePath
+in APPPATH/Views/try_imagick.php on line 14.
+ 1 APPPATH/Views/try_imagick.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/try_imagick.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TryImagick.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:19:16 --> Undefined variable $rotateImagePath
+in APPPATH/Views/try_imagick.php on line 14.
+ 1 APPPATH/Views/try_imagick.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/try_imagick.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TryImagick.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:19:46 --> Undefined variable $rotateImagePath
+in APPPATH/Views/try_imagick.php on line 14.
+ 1 APPPATH/Views/try_imagick.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/try_imagick.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TryImagick.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:19:56 --> Unmatched '}'
+in APPPATH/Controllers/TryImagick.php on line 64.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:20:15 --> Undefined variable $rotateImagePath
+in APPPATH/Views/try_imagick.php on line 14.
+ 1 APPPATH/Views/try_imagick.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/try_imagick.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TryImagick.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:22:09 --> You must specify a source image in your preferences.
+in SYSTEMPATH/Images/Handlers/BaseHandler.php on line 187.
+ 1 SYSTEMPATH/Images/Handlers/BaseHandler.php(187): CodeIgniter\Images\Exceptions\ImageException::forMissingImage()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(711): CodeIgniter\Images\Handlers\BaseHandler->image()
+ 3 APPPATH/Models/TryImagick_model.php(14): CodeIgniter\Images\Handlers\BaseHandler->__call()
+ 4 APPPATH/Controllers/TryImagick.php(37): App\Models\TryImagick_model->rotate()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:24:24 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 23.
+ 1 APPPATH/Controllers/TryImagick.php(37): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:27:03 --> File not found: "/var/www/htdocs/myproj/writable/uploadsinfs7202_course.png"
+in SYSTEMPATH/Files/File.php on line 47.
+ 1 SYSTEMPATH/Files/File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct()
+ 3 APPPATH/Models/TryImagick_model.php(18): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+ 4 APPPATH/Controllers/TryImagick.php(37): App\Models\TryImagick_model->rotate()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:27:38 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 23.
+ 1 APPPATH/Controllers/TryImagick.php(37): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:28:28 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 23.
+ 1 APPPATH/Controllers/TryImagick.php(37): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:28:59 --> File not found: "/var/www/htdocs/myproj/writable/uploadsinfs7202_course.png"
+in SYSTEMPATH/Files/File.php on line 47.
+ 1 SYSTEMPATH/Files/File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct()
+ 3 APPPATH/Models/TryImagick_model.php(18): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+ 4 APPPATH/Controllers/TryImagick.php(37): App\Models\TryImagick_model->rotate()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:30:08 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 23.
+ 1 APPPATH/Controllers/TryImagick.php(37): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:31:04 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 23.
+ 1 APPPATH/Controllers/TryImagick.php(37): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:37:20 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 24.
+ 1 APPPATH/Controllers/TryImagick.php(40): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:38:19 --> syntax error, unexpected variable "$rotateImagePath", expecting "," or ";"
+in APPPATH/Controllers/TryImagick.php on line 45.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:38:21 --> syntax error, unexpected variable "$rotateImagePath", expecting "," or ";"
+in APPPATH/Controllers/TryImagick.php on line 45.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:38:30 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 24.
+ 1 APPPATH/Controllers/TryImagick.php(40): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:39:30 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 31.
+ 1 APPPATH/Controllers/TryImagick.php(40): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:40:52 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 31.
+ 1 APPPATH/Controllers/TryImagick.php(40): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:42:12 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 31.
+ 1 APPPATH/Controllers/TryImagick.php(40): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:43:40 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 31.
+ 1 APPPATH/Controllers/TryImagick.php(40): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:45:37 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 31.
+ 1 APPPATH/Controllers/TryImagick.php(40): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:47:12 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 35.
+ 1 APPPATH/Controllers/TryImagick.php(40): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:49:02 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Models/TryImagick_model.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-16 05:49:37 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 39.
+ 1 APPPATH/Controllers/TryImagick.php(40): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:50:01 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 39.
+ 1 APPPATH/Controllers/TryImagick.php(40): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 05:51:34 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 39.
+ 1 APPPATH/Controllers/TryImagick.php(40): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 06:01:45 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 39.
+ 1 APPPATH/Controllers/TryImagick.php(40): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 06:03:26 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 39.
+ 1 APPPATH/Controllers/TryImagick.php(40): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 06:04:00 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 39.
+ 1 APPPATH/Controllers/TryImagick.php(37): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 06:04:27 --> Call to a member function rotate() on null
+in APPPATH/Models/TryImagick_model.php on line 26.
+ 1 APPPATH/Controllers/TryImagick.php(37): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 06:17:43 --> Undefined constant "App\Models\filePath"
+in APPPATH/Models/TryImagick_model.php on line 18.
+ 1 APPPATH/Controllers/TryImagick.php(38): App\Models\TryImagick_model->rotate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-16 06:21:15 --> mysqli_sql_exception: Unknown column 'writable/uploads/amye_profile.png' in 'field list' in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/Profile_model.php(73): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/htdocs/myproj/app/Controllers/Profile.php(111): App\Models\Profile_model->peofilee()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\Profile->updatePortrait()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-16 06:21:15 --> Unknown column 'writable/uploads/amye_profile.png' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Profile_model.php(73): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Profile.php(111): App\Models\Profile_model->peofilee()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->updatePortrait()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 06:23:15 --> The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 137.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH/Controllers/Profile.php(108): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->updatePortrait()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-16 06:23:35 --> mysqli_sql_exception: Unknown column 'writable/uploads/amye_profile.png' in 'field list' in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/Profile_model.php(73): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/htdocs/myproj/app/Controllers/Profile.php(111): App\Models\Profile_model->peofilee()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\Profile->updatePortrait()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-16 06:23:35 --> Unknown column 'writable/uploads/amye_profile.png' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Profile_model.php(73): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Profile.php(111): App\Models\Profile_model->peofilee()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->updatePortrait()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-16 06:30:28 --> mysqli_sql_exception: Unknown column 'writable/uploads/amye_profile.png' in 'field list' in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/Profile_model.php(73): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/htdocs/myproj/app/Controllers/Profile.php(111): App\Models\Profile_model->peofilee()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\Profile->updatePortrait()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-16 06:30:28 --> Unknown column 'writable/uploads/amye_profile.png' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Profile_model.php(73): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Profile.php(111): App\Models\Profile_model->peofilee()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->updatePortrait()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 06:32:33 --> The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 137.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH/Controllers/Profile.php(108): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->updatePortrait()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 06:32:44 --> Undefined variable $row
+in APPPATH/Models/Profile_model.php on line 74.
+ 1 APPPATH/Models/Profile_model.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(111): App\Models\Profile_model->peofilee()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->updatePortrait()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 07:02:05 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Profile.php on line 29.
+ 1 APPPATH/Controllers/Profile.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 07:02:07 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Profile.php on line 29.
+ 1 APPPATH/Controllers/Profile.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 07:24:50 --> syntax error, unexpected token "->"
+in APPPATH/Models/TryImagick_model.php on line 17.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/TryImagick.php(37): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 07:25:02 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(118): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(335): CodeIgniter\Images\Handlers\ImageMagickHandler->_rotate()
+ 4 APPPATH/Models/TryImagick_model.php(27): CodeIgniter\Images\Handlers\BaseHandler->rotate()
+ 5 APPPATH/Controllers/TryImagick.php(38): App\Models\TryImagick_model->rotate()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 07:29:19 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(118): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(335): CodeIgniter\Images\Handlers\ImageMagickHandler->_rotate()
+ 4 APPPATH/Models/TryImagick_model.php(27): CodeIgniter\Images\Handlers\BaseHandler->rotate()
+ 5 APPPATH/Controllers/TryImagick.php(38): App\Models\TryImagick_model->rotate()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 07:29:29 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(118): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(335): CodeIgniter\Images\Handlers\ImageMagickHandler->_rotate()
+ 4 APPPATH/Models/TryImagick_model.php(27): CodeIgniter\Images\Handlers\BaseHandler->rotate()
+ 5 APPPATH/Controllers/TryImagick.php(38): App\Models\TryImagick_model->rotate()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 07:43:32 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Profile.php on line 34.
+ 1 APPPATH/Controllers/Profile.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 07:43:34 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Profile.php on line 34.
+ 1 APPPATH/Controllers/Profile.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 07:46:12 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(118): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(335): CodeIgniter\Images\Handlers\ImageMagickHandler->_rotate()
+ 4 APPPATH/Models/TryImagick_model.php(27): CodeIgniter\Images\Handlers\BaseHandler->rotate()
+ 5 APPPATH/Controllers/TryImagick.php(38): App\Models\TryImagick_model->rotate()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 08:01:52 --> Class "App\Controllers\Imagick" not found
+in APPPATH/Controllers/TestController.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TestController->testImageMagick()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 08:03:29 --> Class "App\Controllers\Imagick" not found
+in APPPATH/Controllers/TestController.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TestController->testImageMagick()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 08:10:52 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(118): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(335): CodeIgniter\Images\Handlers\ImageMagickHandler->_rotate()
+ 4 APPPATH/Models/TryImagick_model.php(27): CodeIgniter\Images\Handlers\BaseHandler->rotate()
+ 5 APPPATH/Controllers/TryImagick.php(38): App\Models\TryImagick_model->rotate()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 08:14:44 --> syntax error, unexpected variable "$image"
+in APPPATH/Controllers/TryImagick.php on line 50.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 08:15:17 --> Undefined variable $newFileName
+in APPPATH/Controllers/TryImagick.php on line 40.
+ 1 APPPATH/Controllers/TryImagick.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 08:15:46 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(118): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(335): CodeIgniter\Images\Handlers\ImageMagickHandler->_rotate()
+ 4 APPPATH/Controllers/TryImagick.php(62): CodeIgniter\Images\Handlers\BaseHandler->rotate()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 08:15:58 --> syntax error, unexpected variable "$image"
+in APPPATH/Controllers/TryImagick.php on line 50.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 08:16:09 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH/Images/Handlers/GDHandler.php on line 261.
+ 1 SYSTEMPATH/Images/Handlers/GDHandler.php(261): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH/Controllers/TryImagick.php(64): CodeIgniter\Images\Handlers\GDHandler->save()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 08:17:54 --> Undefined variable $imagePath
+in APPPATH/Controllers/TryImagick.php on line 72.
+ 1 APPPATH/Controllers/TryImagick.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 08:32:11 --> Undefined variable $imagePath
+in APPPATH/Controllers/TryImagick.php on line 46.
+ 1 APPPATH/Controllers/TryImagick.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 08:32:28 --> Undefined variable $imagePath
+in APPPATH/Controllers/TryImagick.php on line 46.
+ 1 APPPATH/Controllers/TryImagick.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 08:33:05 --> Undefined variable $imagePath
+in APPPATH/Controllers/TryImagick.php on line 46.
+ 1 APPPATH/Controllers/TryImagick.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 08:33:55 --> Undefined variable $imagePath
+in APPPATH/Controllers/TryImagick.php on line 46.
+ 1 APPPATH/Controllers/TryImagick.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->rotate()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 08:46:41 --> syntax error, unexpected token "<"
+in APPPATH/Views/try_imagick.php on line 15.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/TryImagick.php(17): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TryImagick->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 09:11:48 --> Undefined variable $imagePath
+in APPPATH/Views/welcome_message.php on line 11.
+ 1 APPPATH/Views/welcome_message.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 09:12:03 --> Undefined variable $imagePath
+in APPPATH/Views/welcome_message.php on line 11.
+ 1 APPPATH/Views/welcome_message.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 09:13:27 --> Undefined variable $imagePath
+in APPPATH/Views/welcome_message.php on line 11.
+ 1 APPPATH/Views/welcome_message.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 09:13:44 --> Undefined variable $imagePath
+in APPPATH/Views/welcome_message.php on line 11.
+ 1 APPPATH/Views/welcome_message.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 09:28:18 --> The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 137.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH/Controllers/Profile.php(136): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->updatePortrait()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 09:36:42 --> The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 137.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH/Controllers/Profile.php(136): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->updatePortrait()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 12:30:18 --> syntax error, unexpected token ";"
+in APPPATH/Views/course_detail.php on line 38.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/CourseDetail.php(24): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 12:46:20 --> Undefined property: App\Controllers\CourseDetail::$uri
+in APPPATH/Controllers/CourseDetail.php on line 9.
+ 1 APPPATH/Controllers/CourseDetail.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 12:46:25 --> Undefined property: App\Controllers\CourseDetail::$uri
+in APPPATH/Controllers/CourseDetail.php on line 9.
+ 1 APPPATH/Controllers/CourseDetail.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 12:47:39 --> Undefined property: App\Controllers\CourseDetail::$uri
+in APPPATH/Controllers/CourseDetail.php on line 9.
+ 1 APPPATH/Controllers/CourseDetail.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 12:48:40 --> Undefined property: App\Controllers\CourseDetail::$uri
+in APPPATH/Controllers/CourseDetail.php on line 10.
+ 1 APPPATH/Controllers/CourseDetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 12:48:46 --> Undefined property: App\Controllers\CourseDetail::$uri
+in APPPATH/Controllers/CourseDetail.php on line 10.
+ 1 APPPATH/Controllers/CourseDetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 12:48:52 --> Undefined property: App\Controllers\CourseDetail::$uri
+in APPPATH/Controllers/CourseDetail.php on line 10.
+ 1 APPPATH/Controllers/CourseDetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 12:51:36 --> Undefined property: App\Controllers\CourseDetail::$uri
+in APPPATH/Controllers/CourseDetail.php on line 10.
+ 1 APPPATH/Controllers/CourseDetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 12:52:08 --> Undefined property: App\Controllers\CourseDetail::$load
+in APPPATH/Controllers/CourseDetail.php on line 9.
+ 1 APPPATH/Controllers/CourseDetail.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 12:52:47 --> Undefined property: App\Controllers\CourseDetail::$load
+in APPPATH/Controllers/CourseDetail.php on line 9.
+ 1 APPPATH/Controllers/CourseDetail.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 12:52:57 --> Undefined property: App\Controllers\CourseDetail::$load
+in APPPATH/Controllers/CourseDetail.php on line 9.
+ 1 APPPATH/Controllers/CourseDetail.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 12:53:05 --> Undefined property: App\Controllers\CourseDetail::$load
+in APPPATH/Controllers/CourseDetail.php on line 9.
+ 1 APPPATH/Controllers/CourseDetail.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 12:53:10 --> Undefined property: App\Controllers\CourseDetail::$load
+in APPPATH/Controllers/CourseDetail.php on line 9.
+ 1 APPPATH/Controllers/CourseDetail.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 12:53:14 --> Undefined property: App\Controllers\CourseDetail::$load
+in APPPATH/Controllers/CourseDetail.php on line 9.
+ 1 APPPATH/Controllers/CourseDetail.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 12:53:20 --> Undefined property: App\Controllers\CourseDetail::$load
+in APPPATH/Controllers/CourseDetail.php on line 9.
+ 1 APPPATH/Controllers/CourseDetail.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 12:58:18 --> syntax error, unexpected variable "$course_name", expecting "," or ";"
+in APPPATH/Controllers/CourseDetail.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 13:03:27 --> Undefined array key 0
+in APPPATH/Controllers/CourseDetail.php on line 18.
+ 1 APPPATH/Controllers/CourseDetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 13:03:40 --> Undefined array key 0
+in APPPATH/Controllers/CourseDetail.php on line 18.
+ 1 APPPATH/Controllers/CourseDetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 13:03:47 --> Undefined array key 0
+in APPPATH/Controllers/CourseDetail.php on line 18.
+ 1 APPPATH/Controllers/CourseDetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 13:05:34 --> Undefined array key 0
+in APPPATH/Controllers/CourseDetail.php on line 20.
+ 1 APPPATH/Controllers/CourseDetail.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 13:10:51 --> Undefined array key 0
+in APPPATH/Controllers/CourseDetail.php on line 18.
+ 1 APPPATH/Controllers/CourseDetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 13:19:59 --> syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH/Controllers/CourseDetail.php on line 30.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 13:20:41 --> Undefined variable $course_id
+in APPPATH/Controllers/CourseDetail.php on line 12.
+ 1 APPPATH/Controllers/CourseDetail.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 13:23:04 --> syntax error, unexpected token "public"
+in APPPATH/Controllers/CourseDetail.php on line 19.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 13:44:46 --> Call to undefined method App\Controllers\CourseDetail::getsegment()
+in APPPATH/Controllers/CourseDetail.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 13:45:17 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$url
+in APPPATH/Controllers/CourseDetail.php on line 9.
+ 1 APPPATH/Controllers/CourseDetail.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 13:45:51 --> Undefined array key 0
+in APPPATH/Controllers/CourseDetail.php on line 17.
+ 1 APPPATH/Controllers/CourseDetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 13:47:33 --> Undefined array key 0
+in APPPATH/Controllers/CourseDetail.php on line 21.
+ 1 APPPATH/Controllers/CourseDetail.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 13:48:54 --> Undefined array key 0
+in APPPATH/Controllers/CourseDetail.php on line 24.
+ 1 APPPATH/Controllers/CourseDetail.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 13:49:33 --> Undefined array key 0
+in APPPATH/Controllers/CourseDetail.php on line 26.
+ 1 APPPATH/Controllers/CourseDetail.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 13:50:02 --> Undefined array key 0
+in APPPATH/Controllers/CourseDetail.php on line 26.
+ 1 APPPATH/Controllers/CourseDetail.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 13:50:22 --> Undefined array key 0
+in APPPATH/Controllers/CourseDetail.php on line 26.
+ 1 APPPATH/Controllers/CourseDetail.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 13:50:33 --> Undefined array key 0
+in APPPATH/Controllers/CourseDetail.php on line 26.
+ 1 APPPATH/Controllers/CourseDetail.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 14:13:04 --> syntax error, unexpected token "->"
+in APPPATH/Models/CourseDetail_model.php on line 10.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/CourseDetail.php(14): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-16 14:13:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+WHERE `course_id` = '2'' at line 3 in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseDetail_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseDetail.php(15): App\Models\CourseDetail_model->courseinfo()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-16 14:13:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+WHERE `course_id` = '2'' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseDetail_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/CourseDetail.php(15): App\Models\CourseDetail_model->courseinfo()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-16 14:16:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+WHERE `course_id` = '2'' at line 3 in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseDetail_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseDetail.php(15): App\Models\CourseDetail_model->courseinfo()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-16 14:16:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+WHERE `course_id` = '2'' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseDetail_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/CourseDetail.php(15): App\Models\CourseDetail_model->courseinfo()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-16 14:16:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+WHERE `course_id` = '1'' at line 3 in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseDetail_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseDetail.php(15): App\Models\CourseDetail_model->courseinfo()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-16 14:16:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+WHERE `course_id` = '1'' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseDetail_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/CourseDetail.php(15): App\Models\CourseDetail_model->courseinfo()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-16 14:17:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+WHERE `course_id` = '1'' at line 3 in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseDetail_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseDetail.php(15): App\Models\CourseDetail_model->courseinfo()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-16 14:17:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+WHERE `course_id` = '1'' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseDetail_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/CourseDetail.php(15): App\Models\CourseDetail_model->courseinfo()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-16 14:18:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+WHERE `course_id` = '1'' at line 3 in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseDetail_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseDetail.php(15): App\Models\CourseDetail_model->courseinfo()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-16 14:18:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+WHERE `course_id` = '1'' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseDetail_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/CourseDetail.php(15): App\Models\CourseDetail_model->courseinfo()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-16 14:19:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+WHERE `course_id` = '1'' at line 3 in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseDetail_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseDetail.php(15): App\Models\CourseDetail_model->courseinfo()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-16 14:19:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+WHERE `course_id` = '1'' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseDetail_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/CourseDetail.php(15): App\Models\CourseDetail_model->courseinfo()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-16 14:21:19 --> mysqli_sql_exception: Unknown column '=courses.ueid' in 'on clause' in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseDetail_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseDetail.php(15): App\Models\CourseDetail_model->courseinfo()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-16 14:21:19 --> Unknown column '=courses.ueid' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseDetail_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/CourseDetail.php(15): App\Models\CourseDetail_model->courseinfo()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-16 14:22:19 --> mysqli_sql_exception: Unknown column '=courses.ueid' in 'on clause' in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseDetail_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseDetail.php(15): App\Models\CourseDetail_model->courseinfo()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-16 14:22:19 --> Unknown column '=courses.ueid' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseDetail_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/CourseDetail.php(15): App\Models\CourseDetail_model->courseinfo()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 22:16:04 --> Undefined array key 0
+in APPPATH/Controllers/CourseDetail.php on line 32.
+ 1 APPPATH/Controllers/CourseDetail.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 22:16:48 --> Undefined array key 0
+in APPPATH/Controllers/CourseDetail.php on line 32.
+ 1 APPPATH/Controllers/CourseDetail.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 23:14:24 --> Undefined constant "App\Controllers\model"
+in APPPATH/Controllers/CourseDetail.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 23:15:00 --> Undefined constant "App\Controllers\model"
+in APPPATH/Controllers/CourseDetail.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-16 23:15:29 --> mysqli_sql_exception: Column 'course_id' in where clause is ambiguous in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseDetail_model.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseDetail.php(19): App\Models\CourseDetail_model->showCourseComments()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-16 23:15:29 --> Column 'course_id' in where clause is ambiguous
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseDetail_model.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/CourseDetail.php(19): App\Models\CourseDetail_model->showCourseComments()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-16 23:16:14 --> mysqli_sql_exception: Column 'course_id' in where clause is ambiguous in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseDetail_model.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseDetail.php(19): App\Models\CourseDetail_model->showCourseComments()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-16 23:16:14 --> Column 'course_id' in where clause is ambiguous
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseDetail_model.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/CourseDetail.php(19): App\Models\CourseDetail_model->showCourseComments()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-16 23:18:58 --> mysqli_sql_exception: Unknown column 'courses_ulid' in 'on clause' in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseDetail_model.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseDetail.php(19): App\Models\CourseDetail_model->showCourseComments()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-16 23:18:58 --> Unknown column 'courses_ulid' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseDetail_model.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/CourseDetail.php(19): App\Models\CourseDetail_model->showCourseComments()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 23:29:24 --> Undefined array key "ue_id"
+in APPPATH/Views/course_detail.php on line 41.
+ 1 APPPATH/Views/course_detail.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(57): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 23:45:38 --> Undefined array key "comments_id"
+in APPPATH/Views/course_detail.php on line 42.
+ 1 APPPATH/Views/course_detail.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(57): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 23:47:00 --> Undefined array key "comments_id"
+in APPPATH/Views/course_detail.php on line 42.
+ 1 APPPATH/Views/course_detail.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(57): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 23:47:18 --> Undefined array key "comments_text"
+in APPPATH/Views/course_detail.php on line 42.
+ 1 APPPATH/Views/course_detail.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(57): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 23:48:22 --> Undefined array key "comments_id"
+in APPPATH/Views/course_detail.php on line 42.
+ 1 APPPATH/Views/course_detail.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(57): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

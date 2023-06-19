@@ -1,0 +1,584 @@
+CRITICAL - 2023-05-05 01:23:14 --> Cannot access offset of type string on string
+in APPPATH/Views/course_detail.php on line 48.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/CourseDetail.php(69): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 01:26:20 --> Undefined variable $file_item
+in APPPATH/Views/course_detail.php on line 48.
+ 1 APPPATH/Views/course_detail.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(69): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 01:41:08 --> Array to string conversion
+in APPPATH/Controllers/CourseDetail.php on line 120.
+ 1 APPPATH/Controllers/CourseDetail.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 01:41:59 --> Undefined array key "course_materials"
+in APPPATH/Controllers/CourseDetail.php on line 122.
+ 1 APPPATH/Controllers/CourseDetail.php(122): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 01:42:47 --> Array to string conversion
+in APPPATH/Controllers/CourseDetail.php on line 122.
+ 1 APPPATH/Controllers/CourseDetail.php(122): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 01:47:38 --> Could not move file "phpJrtsyF" to "/var/www/htdocs/myproj/writable/uploads/course_file/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/CourseDetail.php(131): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 01:48:09 --> Could not move file "phpXfPJFE" to "/var/www/htdocs/myproj/writable/uploads/course_file/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/CourseDetail.php(127): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 01:48:32 --> Could not move file "phphHtbxE" to "/var/www/htdocs/myproj/writable/uploads/course_file/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/CourseDetail.php(127): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 01:55:47 --> Array to string conversion
+in APPPATH/Controllers/CourseDetail.php on line 135.
+ 1 APPPATH/Controllers/CourseDetail.php(135): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:05:03 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/CourseDetail.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:05:05 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/CourseDetail.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:05:08 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/CourseDetail.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:05:37 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/CourseDetail.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:07:38 --> Attempt to read property "1" on string
+in APPPATH/Controllers/CourseDetail.php on line 31.
+ 1 APPPATH/Controllers/CourseDetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:08:07 --> Undefined variable $comment
+in APPPATH/Views/course_detail.php on line 24.
+ 1 APPPATH/Views/course_detail.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(70): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:09:20 --> Undefined array key "course_id"
+in APPPATH/Views/course_detail.php on line 24.
+ 1 APPPATH/Views/course_detail.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(70): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:09:47 --> Undefined variable $files_data
+in APPPATH/Controllers/CourseDetail.php on line 64.
+ 1 APPPATH/Controllers/CourseDetail.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:11:58 --> Undefined array key 0
+in APPPATH/Views/course_detail.php on line 24.
+ 1 APPPATH/Views/course_detail.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(74): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-05 02:18:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1) VALUES (:1:)' at line 1 in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseDetail_model.php(70): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseDetail.php(143): App\Models\CourseDetail_model->add_course_files()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-05 02:18:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1) VALUES (:1:)' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseDetail_model.php(70): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/CourseDetail.php(143): App\Models\CourseDetail_model->add_course_files()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:27:23 --> Call to undefined function App\Controllers\string()
+in APPPATH/Controllers/CourseDetail.php on line 124.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-05 02:28:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1) VALUES (:1:)' at line 1 in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseDetail_model.php(70): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseDetail.php(144): App\Models\CourseDetail_model->add_course_files()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-05 02:28:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1) VALUES (:1:)' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseDetail_model.php(70): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/CourseDetail.php(144): App\Models\CourseDetail_model->add_course_files()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-05 02:29:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1) VALUES (:1:)' at line 1 in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseDetail_model.php(70): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseDetail.php(143): App\Models\CourseDetail_model->add_course_files()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-05 02:29:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1) VALUES (:1:)' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseDetail_model.php(70): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/CourseDetail.php(143): App\Models\CourseDetail_model->add_course_files()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-05 02:36:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1) VALUES (:1:)' at line 1 in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseDetail_model.php(70): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseDetail.php(143): App\Models\CourseDetail_model->add_course_files()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-05 02:36:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1) VALUES (:1:)' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseDetail_model.php(70): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/CourseDetail.php(143): App\Models\CourseDetail_model->add_course_files()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-05 02:41:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1) VALUES (:1:)' at line 1 in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseDetail_model.php(70): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseDetail.php(143): App\Models\CourseDetail_model->add_course_files()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-05 02:41:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1) VALUES (:1:)' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseDetail_model.php(70): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/CourseDetail.php(143): App\Models\CourseDetail_model->add_course_files()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->upload_course_materials()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:49:46 --> Cannot access offset of type string on string
+in APPPATH/Views/course_detail.php on line 49.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/CourseDetail.php(74): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:52:22 --> Array to string conversion
+in APPPATH/Views/course_detail.php on line 48.
+ 1 APPPATH/Views/course_detail.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(74): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:52:32 --> Array to string conversion
+in APPPATH/Views/course_detail.php on line 48.
+ 1 APPPATH/Views/course_detail.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(74): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:54:48 --> Call to undefined function App\Controllers\echocount()
+in APPPATH/Controllers/CourseDetail.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:55:36 --> Array to string conversion
+in APPPATH/Views/course_detail.php on line 48.
+ 1 APPPATH/Views/course_detail.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(76): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:57:03 --> Array to string conversion
+in APPPATH/Views/course_detail.php on line 48.
+ 1 APPPATH/Views/course_detail.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(77): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 02:59:00 --> Array to string conversion
+in APPPATH/Views/course_detail.php on line 48.
+ 1 APPPATH/Views/course_detail.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseDetail.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 04:53:20 --> usort(): Argument #2 ($callback) must be a valid callback, function "my_sort" not found or invalid function name
+in APPPATH/Controllers/CoursesList.php on line 55.
+ 1 APPPATH/Controllers/CoursesList.php(55): usort()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->sort_name_a_z()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 04:53:57 --> usort(): Argument #2 ($callback) must be a valid callback, function "my_sort" not found or invalid function name
+in APPPATH/Controllers/CoursesList.php on line 55.
+ 1 APPPATH/Controllers/CoursesList.php(55): usort()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->sort_name_a_z()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 04:54:04 --> usort(): Argument #2 ($callback) must be a valid callback, function "my_sort" not found or invalid function name
+in APPPATH/Controllers/CoursesList.php on line 55.
+ 1 APPPATH/Controllers/CoursesList.php(55): usort()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->sort_name_a_z()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 04:56:43 --> usort(): Argument #2 ($callback) must be a valid callback, function "my_sort" not found or invalid function name
+in APPPATH/Controllers/CoursesList.php on line 55.
+ 1 APPPATH/Controllers/CoursesList.php(55): usort()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->sort_name_a_z()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 05:06:42 --> usort(): Argument #2 ($callback) must be a valid callback, function "my_sort" not found or invalid function name
+in APPPATH/Controllers/CoursesList.php on line 50.
+ 1 APPPATH/Controllers/CoursesList.php(50): usort()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->sort_name_a_z()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 13:02:26 --> Invalid file: "course_results.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/CoursesList.php(190): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->search_results()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 13:30:29 --> Undefined variable $data
+in APPPATH/Views/search_results.php on line 33.
+ 1 APPPATH/Views/search_results.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CoursesList.php(183): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->test_search_results()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 13:37:09 --> Undefined variable $data
+in APPPATH/Views/search_results.php on line 38.
+ 1 APPPATH/Views/search_results.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CoursesList.php(183): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->test_search_results()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 13:37:21 --> Undefined variable $data
+in APPPATH/Views/search_results.php on line 38.
+ 1 APPPATH/Views/search_results.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CoursesList.php(183): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->test_search_results()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 13:38:23 --> Undefined variable $data
+in APPPATH/Views/search_results.php on line 38.
+ 1 APPPATH/Views/search_results.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CoursesList.php(183): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->test_search_results()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 13:41:42 --> Undefined variable $data
+in APPPATH/Views/search_results.php on line 38.
+ 1 APPPATH/Views/search_results.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CoursesList.php(183): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->test_search_results()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 13:44:21 --> Undefined variable $data
+in APPPATH/Views/search_results.php on line 38.
+ 1 APPPATH/Views/search_results.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CoursesList.php(183): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->test_search_results()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 13:52:38 --> Undefined variable $data
+in APPPATH/Views/search_results.php on line 8.
+ 1 APPPATH/Views/search_results.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CoursesList.php(183): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->test_search_results()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 13:53:15 --> Undefined variable $data
+in APPPATH/Views/search_results.php on line 8.
+ 1 APPPATH/Views/search_results.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CoursesList.php(189): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->test_search_results()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 13:54:05 --> Undefined variable $data
+in APPPATH/Views/search_results.php on line 8.
+ 1 APPPATH/Views/search_results.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CoursesList.php(189): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->test_search_results()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 13:54:46 --> Undefined variable $data
+in APPPATH/Views/search_results.php on line 8.
+ 1 APPPATH/Views/search_results.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CoursesList.php(189): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->test_search_results()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 13:56:34 --> Undefined variable $data
+in APPPATH/Views/search_results.php on line 8.
+ 1 APPPATH/Views/search_results.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CoursesList.php(189): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->test_search_results()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 13:56:49 --> Undefined variable $data
+in APPPATH/Views/search_results.php on line 8.
+ 1 APPPATH/Views/search_results.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CoursesList.php(189): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->test_search_results()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 14:01:37 --> Undefined variable $data
+in APPPATH/Views/search_results.php on line 8.
+ 1 APPPATH/Views/search_results.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CoursesList.php(189): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->test_search_results()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 14:02:30 --> Undefined variable $data
+in APPPATH/Views/search_results.php on line 8.
+ 1 APPPATH/Views/search_results.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CoursesList.php(189): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->test_search_results()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 14:04:27 --> Array to string conversion
+in APPPATH/Views/search_results.php on line 8.
+ 1 APPPATH/Views/search_results.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CoursesList.php(191): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->test_search_results()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-05 22:25:43 --> mysqli_sql_exception: Unknown column 'course' in 'where clause' in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseList_model.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/CoursesList.php(201): App\Models\CourseList_model->search_courses()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CoursesList->search_results()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-05 22:25:43 --> Unknown column 'course' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseList_model.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/CoursesList.php(201): App\Models\CourseList_model->search_courses()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->search_results()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-05 22:33:11 --> mysqli_sql_exception: Unknown column 'course' in 'where clause' in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseList_model.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/myproj/app/Controllers/CoursesList.php(201): App\Models\CourseList_model->search_courses()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CoursesList->search_results()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-05 22:33:11 --> Unknown column 'course' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseList_model.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/CoursesList.php(201): App\Models\CourseList_model->search_courses()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CoursesList->search_results()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

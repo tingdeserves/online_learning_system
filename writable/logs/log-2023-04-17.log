@@ -1,0 +1,258 @@
+CRITICAL - 2023-04-17 00:40:47 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 SYSTEMPATH/Database/Query.php(329): implode()
+ 2 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/CourseDetail_model.php(43): CodeIgniter\Database\BaseBuilder->insert()
+ 7 APPPATH/Controllers/CourseDetail.php(70): App\Models\CourseDetail_model->addComments()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 00:42:04 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/CourseDetail.php on line 76.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 00:42:06 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/CourseDetail.php on line 76.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 00:42:15 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 SYSTEMPATH/Database/Query.php(329): implode()
+ 2 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/CourseDetail_model.php(43): CodeIgniter\Database\BaseBuilder->insert()
+ 7 APPPATH/Controllers/CourseDetail.php(70): App\Models\CourseDetail_model->addComments()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 00:42:42 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 SYSTEMPATH/Database/Query.php(329): implode()
+ 2 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/CourseDetail_model.php(43): CodeIgniter\Database\BaseBuilder->insert()
+ 7 APPPATH/Controllers/CourseDetail.php(70): App\Models\CourseDetail_model->addComments()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 00:44:39 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 SYSTEMPATH/Database/Query.php(329): implode()
+ 2 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/CourseDetail_model.php(43): CodeIgniter\Database\BaseBuilder->insert()
+ 7 APPPATH/Controllers/CourseDetail.php(70): App\Models\CourseDetail_model->addComments()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 00:46:55 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 SYSTEMPATH/Database/Query.php(329): implode()
+ 2 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/CourseDetail_model.php(43): CodeIgniter\Database\BaseBuilder->insert()
+ 7 APPPATH/Controllers/CourseDetail.php(70): App\Models\CourseDetail_model->addComments()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 00:49:31 --> syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH/Controllers/CourseDetail.php on line 73.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 00:51:23 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 SYSTEMPATH/Database/Query.php(329): implode()
+ 2 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/CourseDetail_model.php(43): CodeIgniter\Database\BaseBuilder->insert()
+ 7 APPPATH/Controllers/CourseDetail.php(70): App\Models\CourseDetail_model->addComments()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 00:51:58 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 SYSTEMPATH/Database/Query.php(329): implode()
+ 2 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/CourseDetail_model.php(43): CodeIgniter\Database\BaseBuilder->insert()
+ 7 APPPATH/Controllers/CourseDetail.php(70): App\Models\CourseDetail_model->addComments()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 00:54:57 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/CourseDetail.php on line 61.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 00:55:00 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/CourseDetail.php on line 61.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 00:55:08 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 SYSTEMPATH/Database/Query.php(329): implode()
+ 2 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/CourseDetail_model.php(43): CodeIgniter\Database\BaseBuilder->insert()
+ 7 APPPATH/Controllers/CourseDetail.php(58): App\Models\CourseDetail_model->addComments()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 00:56:54 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 SYSTEMPATH/Database/Query.php(329): implode()
+ 2 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/CourseDetail_model.php(43): CodeIgniter\Database\BaseBuilder->insert()
+ 7 APPPATH/Controllers/CourseDetail.php(58): App\Models\CourseDetail_model->addComments()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-17 01:01:06 --> mysqli_sql_exception: Column 'comments_text' cannot be null in /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/myproj/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/myproj/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/myproj/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/myproj/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/myproj/app/Models/CourseDetail_model.php(43): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/myproj/app/Controllers/CourseDetail.php(72): App\Models\CourseDetail_model->addComments()
+#6 /var/www/htdocs/myproj/system/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+#7 /var/www/htdocs/myproj/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/myproj/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/myproj/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-17 01:01:06 --> Column 'comments_text' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CourseDetail_model.php(43): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/CourseDetail.php(72): App\Models\CourseDetail_model->addComments()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 01:02:33 --> Undefined variable $output
+in APPPATH/Controllers/CourseDetail.php on line 92.
+ 1 APPPATH/Controllers/CourseDetail.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 01:02:43 --> Undefined variable $output
+in APPPATH/Controllers/CourseDetail.php on line 92.
+ 1 APPPATH/Controllers/CourseDetail.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 01:03:29 --> Undefined variable $output
+in APPPATH/Controllers/CourseDetail.php on line 85.
+ 1 APPPATH/Controllers/CourseDetail.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 01:04:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/CourseDetail.php(72): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 01:05:22 --> Undefined variable $output
+in APPPATH/Controllers/CourseDetail.php on line 85.
+ 1 APPPATH/Controllers/CourseDetail.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 01:05:47 --> Undefined variable $output
+in APPPATH/Controllers/CourseDetail.php on line 85.
+ 1 APPPATH/Controllers/CourseDetail.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 01:05:50 --> Undefined variable $output
+in APPPATH/Controllers/CourseDetail.php on line 85.
+ 1 APPPATH/Controllers/CourseDetail.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 01:06:10 --> Undefined variable $output
+in APPPATH/Controllers/CourseDetail.php on line 85.
+ 1 APPPATH/Controllers/CourseDetail.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 01:09:21 --> Undefined array key 0
+in APPPATH/Models/CourseDetail_model.php on line 58.
+ 1 APPPATH/Models/CourseDetail_model.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CourseDetail.php(80): App\Models\CourseDetail_model->addComments_l()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 01:11:12 --> Undefined array key 0
+in APPPATH/Models/CourseDetail_model.php on line 58.
+ 1 APPPATH/Models/CourseDetail_model.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CourseDetail.php(80): App\Models\CourseDetail_model->addComments_l()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseDetail->addComments()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
