@@ -7,7 +7,8 @@ This is a web-based online learning system, which allows the educator and learne
 - A learner can search for a course, enrol a course, pay for a course and view the learning materials, etc.
 
 ## The Main Flow
-![main-flow](https://github.com/tingdeserves/codeigniter4_learning_system/assets/57157417/9b47968b-2509-4bce-8605-9690647798de)
+![main-flow](https://github.com/tingdeserves/online_learning_system/assets/57157417/49a032d8-89ef-4835-82a4-3d9577693d4f)
+
 
 
 ## Technologies and Languages
