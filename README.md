@@ -1,5 +1,8 @@
 # An Online Learning System 😀
 
+## 🔗 Links
+Demonstration at[ https://tingdeservesphp.000webhostapp.com](https://tingdeservesphp.000webhostapp.com/)
+
 ## What is this?
 
 This is a web-based online learning system, which allows the educator and learner to interact online. Educators and learners can create an account by registering and managing their profiles and courses.
@@ -40,6 +43,5 @@ This is a web-based online learning system, which allows the educator and learne
 - Search a course. Each resulting search item contain a link redirect to the course page.
 - Display the user’s current location on a map.
 
-## 🔗 Links
-Demonstration at[ https://tingdeservesphp.000webhostapp.com](https://tingdeservesphp.000webhostapp.com/)
+
 
